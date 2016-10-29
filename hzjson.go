@@ -8,8 +8,8 @@ import (
 	"strings"
 )
 
-// loadJSONFile load json file.
-func loadJSONFile(jsonPath string, val interface{}) error {
+// ParseJSONFromFile parse JSON from file
+func ParseJSONFromFile(jsonPath string, val interface{}) error {
 	bs, err := ioutil.ReadFile(jsonPath)
 	if err != err {
 		return err
