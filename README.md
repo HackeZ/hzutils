@@ -3,7 +3,7 @@
 ## Install
 
 ```shell
-> go get hackez/hzutils
+> go get github.com/hackez/hzutils
 ```
 
 ## Usage
