@@ -111,3 +111,8 @@ func psEncode(buf *bytes.Buffer, v reflect.Value) error {
 	}
 	return nil
 }
+
+// Ping for the test is available
+func Ping() {
+	fmt.Println("Welcome to Use HZUtils")
+}
